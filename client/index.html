@@ -1,2 +1,11 @@
 Hello World
-hwugduiehu
+
+<script src="/socket.io/socket.io.js"
+></script>
+<script>
+  const socket = io();
+
+  socket.emit('happy', {
+    reason:'its my birthday'
+  });
+</script>
